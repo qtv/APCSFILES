@@ -1,0 +1,704 @@
+@import url(/filedata/commonscripts/pagecommon.css);
+
+/********** GLOBAL **********/
+#c2 {
+	padding: 16px;
+	min-height: 400px;
+}
+
+#page table {
+	text-align: left;
+}
+
+#page {
+	font-size: medium;
+	line-height: normal;
+	position: relative;
+	text-align: left; /* hack to correct IE inheritance of fixed-width centering */
+}
+
+#page div.title {
+	border-bottom: 3px solid #ff0000;
+}
+
+#page div.title h2 {
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+#topprevnextbuttons
+{
+	float: right;
+	width: 60px;
+	height: 42px;
+	position: relative;
+}
+#topprevnextbuttons img
+{
+    border: none;
+}
+#contentslink
+{
+	position: absolute;
+	left:2px;
+	top: 0px;
+}
+#indexlink
+{
+	position: absolute;
+	left:13px;
+	bottom:0px;
+}
+#prevlink, #nextlink, #contentslink, #indexlink
+{
+	cursor: pointer;
+}
+#page #topprevnextbuttons a:hover,
+#page #topprevnextbuttons a:link,
+#page #topprevnextbuttons a:visited,
+#page #topprevnextbuttons a
+{
+	background: transparent;
+	text-decoration: none;
+}
+
+#page div.title h2 img
+{
+	vertical-align: middle;
+}
+
+#page h3.subtitle {
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 10px;
+}
+
+#page #bottomarrows {
+	float: right;
+}
+
+#page sub {
+	vertical-align: -0.35em;
+}
+
+#page sup {
+}
+
+#locationbox {
+	position: absolute;
+	top: 88px;
+	width: 100%;
+}
+
+#locationbox div  {
+	margin-right: 1ex;
+	float: right;
+	font-size: 11px;
+}
+
+#locationbox a {
+	color: dimgray;
+	text-decoration: none;
+}
+
+#locationbox a:hover {
+	color: dimgray;
+	text-decoration: underline;
+}
+
+/********** A-TAGS **********/
+/* removed to make way for new schemelib
+#page a {
+	color: #0000ff;
+	font-weight: normal;
+}
+
+#page a:link, #page a:visited {
+	text-decoration: underline;
+}
+
+#page a:hover {
+	background-color: #ffff00;
+	color: #ff0000;
+}
+*/
+
+#page a.plain:link, #page a.plain:visited {
+	text-decoration: none;
+}
+
+#page a.bplain:link, #page a.bplain:visited {
+	background-color: transparent;
+	color: #000080;
+	text-decoration: underline;
+}
+
+#page a.bplain:hover {
+	background-color: #ededed;
+	color: #800000;
+}
+
+#page a.gplain:link, #page a.gplain:visited {
+	background-color: transparent;
+	color: #808080;
+	text-decoration: underline;
+}
+
+#page a.gplain:hover {
+	background-color: #808080;
+	color: #333333;
+}
+
+#page a.wplain:link, #page a.wplain:visited {
+	background-color: transparent;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#page a.wplain:hover {
+	color: #80ffff;
+}
+
+/********** LISTS **********/
+#page ol {
+	background-color: transparent;
+	/* removed font-family statement */
+	list-style-position: outside;
+}
+
+#page ol.alpha, #page li.alpha {
+	list-style-type: lower-alpha;
+}
+
+#page ol.formula, #page li.formula {
+	list-style-type: upper-roman;
+}
+
+#page ol.multichoice, #page li.multichoice {
+	list-style-type: upper-alpha;
+}
+
+#page ol.num, #page li.num {
+	list-style-type: decimal;
+}
+
+#page ol.roman, #page li.roman {
+	list-style-type: lower-roman;
+}
+
+#page ul.second
+{
+	list-style-type: circle;
+}
+
+#page li.nonum
+{
+	list-style-type: none;
+}
+/********** GENERAL STYLES **********/
+#page .announce {
+	background: #ffffcc;
+	border: 4px ridge #d2b48c;
+	font-size: small;
+	margin: 6px auto;
+	padding: 8px;
+	width: 75%;
+}
+
+#page .bold {
+   font-weight: bold;
+}
+
+#page .centered {
+	text-align: center;
+}
+
+.code, #page .code, #page .mono {
+	color: #0000ff;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#page .comment {
+	background-color: #edffff;
+	border: 1px solid #000080;
+	font-size: smaller;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 4px;
+}
+
+#page .first, #page .innerfirst {
+	margin-top: 0em;
+}
+
+#page .float-left {
+	float: left;
+}
+
+#page .float-right {
+	float: right;
+}
+
+#page .flush-right {
+	text-align: right;
+}
+
+#page .highy {
+	background-color: #ffff00;
+	color: #000000;
+}
+
+#page .highr {
+	background-color: #c0c0c0;
+	color: #ff0000;
+}
+
+#page .ibig {
+	font-size: 12pt;
+}
+
+#page .indent {
+	margin-left: 3em;
+}
+
+#page .ismall {
+	font-size: 11px;
+}
+
+#page .itiny {
+	font-size: 9px;
+}
+
+#page .iv {
+	/* removed font-family statement */
+}
+
+#page .large {
+	font-size: x-large;
+}
+
+#page .last, #page .innerlast {
+	margin-bottom: 0em;
+}
+
+#page .math,
+#page .unicode
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Arial;
+}
+
+#page .mathspecial
+{
+	font-family: msbm10;
+}
+
+#page .meta,
+#page .hancock
+{
+	font-family: "Hancock", "Monotype Corsiva", "Brush Script MT", cursive;
+}
+
+#page .mono .math,
+#page .mono .meta
+{
+	font-size: medium;
+}
+
+#page .notice {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#page .nowrap {
+	white-space: nowrap;
+}
+
+#page .smaller {
+	font-size: smaller;
+}
+
+#page .strike {
+	text-decoration: line-through;
+}
+
+/************ FINDER STYLES ************/
+.finderCommon {
+	background-color: #ededff;
+	border: 1px solid #000080;
+	left: 0px;
+	padding: 3px 0 3px 3px;
+	position: absolute;
+	top: 0px;
+	width: 240px;
+	z-index: 10;
+}
+
+.finderCommon ul, .finderCommon li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.finderCommon li {
+	float: left;
+	margin-right: 0.75em;
+}
+
+.finderCommon h1 {
+	color: #000080;
+	/* removed font-family statement */
+	font-size: larger;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.finderCommon h1 img {
+	float: right;
+	padding-right: 3px;
+}
+
+/********** SLAB STYLES (what for?) **********/
+.slab {
+	background-color: #d2b48c;
+	border: thin outset;
+}
+
+.slabcell {
+	background-color: #fafad2;
+	border: thin inset #fafad2;
+	padding: 4px;
+}
+
+.slabtitle {
+	background-color: #006400;
+	border: thin inset #fafad2;
+	color: white;
+	font-weight: bolder;
+	padding: 4px;
+	text-align: center;
+}
+
+/********** FORM WIDGET STYLES **********/
+input.button {
+	font-size: 12px;
+	text-align: center;
+}
+
+/********** ONLINE TEST STYLES **********/
+.testcondition {
+	background: #ff0000;
+	color: #ffffff;
+	font-size: larger;
+	font-weight: bold;
+	text-align: center;
+}
+
+.testinfo {
+   border: 3px solid #ffd700;
+   margin: 0em auto;
+   padding: 0px;
+   text-align: left;
+   width: 540px;
+}
+
+.testinfo .testinnerfirst {
+	background-color: #f0fff0;
+	border-bottom: 2px solid #ffd700;
+	padding: 4px;
+}
+
+.testinfo .testinnerlast {
+	background-color: #f0fff0;
+	border-top: 1px solid #ffd700;
+	padding: 4px;
+}
+
+.testinnerlast ul {
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+
+.testspecs {
+   border: 3px solid #ff0000;
+   margin: 0em auto;
+   padding: 0px;
+   text-align: left;
+   width: 420px;
+}
+
+.testspecs .testinnerfirst {
+   background-color: #f0fff0;
+	border-bottom: 2px solid #ff0000;
+	padding: 4px;
+}
+
+.testspecs .testinner {
+   background-color: #f0fff0;
+	border-bottom: 2px solid #ff0000;
+	border-top: 1px solid #ff0000;
+	padding: 4px;
+}
+
+.testspecs .testinnerlast {
+	background-color: #f0fff0;
+	border-top: 1px solid #ff0000;
+	padding: 4px;
+}
+
+.testtitle {
+   font-size: larger;
+   font-weight: bold;
+   text-align: center;
+}
+
+.testvalue {
+	border: none;
+	float: right;
+	padding: 0px;
+	text-align: center;
+	width: 40%;
+}
+
+/********** TEST TIMER STYLES **********/
+.nbtimergreen {
+	background-color: #008000;
+	border: 3px inset #ff0000;
+}
+
+.nbtimeryellow {
+	background-color: #ffff00;
+	border: 3px inset #ff0000;
+}
+
+.nbtimeramber {
+	background-color: #ffd700;
+	border: 3px inset #ff0000;
+}
+
+.nbtimerwhite {
+	background-color: #ffffff;
+	border: 3px inset #ff0000;
+}
+
+.nbtimerblack {
+	background-color: #000000;
+	border: 3px inset #ff0000;
+}
+
+.nbitemwhite {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.nbitemblack {
+	color: #000000;
+	font-weight: bold;
+}
+
+#finder
+{
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	border: 1px solid dimgray;
+	opacity: 0.85;
+	background: ivory;
+	padding:4px;
+}
+
+#finder h1
+{
+	font-size: 12pt;
+	font-weight : bolder;
+	padding: 0px;
+	margin: 4px 0px 4px 0px;
+
+}
+
+/********** annotations **************/
+#explainannotatediv
+{
+	border: medium slategray groove;
+	margin: 8px;
+	padding: 8px;
+	background: ivory;
+	color: Maroon;
+	text-align: center;
+	font-size: 9pt;
+}
+
+#page.pagesensitive
+{
+	border: 1px solid dimgray;
+	padding: 4px;
+	background: ghostwhite;
+	cursor: crosshair;
+}
+
+#page #annotatedisplay
+{
+	margin: -12px 0px 0px -12px;
+	position: absolute;
+	width: 600px;
+	padding: 2px;
+	border: 1px solid slategray;
+	background: bisque;
+	opacity: 0.96;
+	color: Black;
+}
+
+#page #annotateeditor
+{
+	cursor: auto;
+	margin-left: -62px;
+	position: absolute;
+	width: 600px;
+	padding: 2px;
+	border: 1px solid slategray;
+	background: azure;
+	opacity: 0.91;
+	color: Black;
+}
+
+#page #annotateeditor, #page #annotateeditor div, #page #annotatedisplay, #page #annotatedisplay div
+{
+	font-size: 9pt;
+}
+
+#page .annotefreearea
+{
+	margin: 12px;
+	background: beige;
+}
+
+#page #annotatedisplay .annotefreearea
+{
+	margin: 2px;
+	padding: 2px;
+	background: beige;
+}
+
+#page .annotefreeareaprivate
+{
+	margin: 2px;
+	padding: 2px;
+	background: gainsboro;
+}
+
+#page #annotetextarea
+{
+	height: 120px;
+	margin: 12px;
+}
+
+#page #annotetextarea TEXTAREA
+{
+	font-size: 9pt;
+	display: block;
+	background: ivory;
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+
+#page .annotatesavebutton
+{
+	font-size: 9pt;
+	padding: 1px;
+	margin: 1px;
+}
+
+#page .bottomsection
+{
+	text-align: right;
+}
+
+#page.autocursor
+{
+	border: 1px solid dimgray;
+	padding: 4px;
+	background: ghostwhite;
+	cursor: wait;
+}
+
+#page .dimly, #page.dimly
+{
+	/*color: red;*/
+	opacity: 0.5;
+}
+
+#page #annotateeditor .annotatebuttondiv
+{
+	text-align: right;
+}
+
+#page .annotationnotepadimage
+{
+	opacity: 0.7;
+	position: absolute;
+	margin-left: -48px;
+}
+
+#pagenumbercontrol, #pagenumbercontrol input, #pagenumbercontrol #gobutton
+{
+	font-size: 9pt;
+}
+
+#pagenumbercontrol
+{
+	margin-top: 12px;
+}
+
+#pagecontrols
+{
+	border-top: 1px solid silver;
+}
+
+#pagenumbercontrol input
+{
+	text-align: center;
+}
+
+#pagenumbercontrol #gobutton
+{
+	display: none;
+}
+
+#page div.editorlogreport,
+#page div.javacodediv div.editorlogreport
+{
+	background-color: #fffff0;
+	border: 1px solid black;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 8pt;
+	padding: 4px;
+	overflow: auto;
+	line-height: 120%;
+	color: dimgray;
+}
+#page div.editorlogreport div,
+#page div.javacodediv div.editorlogreport div
+{
+	font-family: "Courier New",Courier,monospace;
+}
+
+#elinks a.editorloglink
+{
+	background: ivory;
+}
+
+#page td.mceFirst a,
+#page td.mceFirst a:link,
+#page td.mceFirst a:visited
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+#page td.mceFirst a:hover,
+#page .defaultSkin a:hover
+{
+	background-color: transparent;
+	color: #000000;
+}

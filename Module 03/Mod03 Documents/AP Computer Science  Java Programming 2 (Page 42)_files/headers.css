@@ -1,0 +1,314 @@
+#c2
+{
+	padding: 8px;
+}
+
+.header
+{
+	padding: 0.25em;
+	margin: 0.25em 0;
+}
+
+#page a, #page .ui-widget-content a
+{
+	text-decoration: none;
+	color: blue;
+}
+
+#page a:hover
+{
+	text-decoration: underline;
+}
+
+#page b
+{
+	font-weight: bold;
+}
+
+#page input,#page textarea,#page select
+{
+	padding: 2px;
+	margin: 0 2px;
+}
+
+#page input[type=radio],#page input[type=checkbox]
+{
+	margin-right: 0.3em;
+}
+
+#page p:first, p:first, #page div p:first, div p:first
+{
+	margin-top: 0;
+}
+
+.clearfix:after
+{
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+table.ts
+{
+	border-collapse: collapse;
+}
+
+table.ts > tbody > tr > td
+{
+	padding: 2px;
+}
+
+table.ts > tbody > tr.titles > td, table.ts > tbody > tr.titles > td > div
+{
+	font-weight: bold;
+}
+
+#page .content
+{
+	padding: 0.5em;
+	margin: 0.5em 0;
+}
+
+#waitdiv
+{
+	position:fixed;
+	top:8px;
+	left:8px;
+	width: 64px;
+	height: 64px;
+}
+
+#page div.p1, div.p1, #page div.p,  div.p
+{
+	margin-top: 0.25em;
+}
+
+#page div.p2, div.p2
+{
+	margin-top: 0.5em;
+}
+
+.ui-widget
+{
+	font: 11px "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+.ui-widget.header
+{
+	padding: 8px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+.ui-widget-content .header
+{
+	margin-top: 0;
+}
+
+.ui-widget.header2
+{
+	padding: 6px;
+	margin-top: 6px;
+	font-weight: normal;
+}
+
+.ui-widget.content
+{
+	padding: 0.5em;
+}
+
+#page .ui-widget.announce, .ui-widget.announce
+{
+	background: url(images/announce.png);
+	color: #fff !important;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+	width: auto;
+}
+
+#page .ui-widget.warning
+{
+	background: url(images/warning.png);
+	color: #fff  !important;
+	border: 1px solid #ef3931;
+	text-align: center;
+	width: auto;
+}
+
+#page .ui-widget.warning a
+{
+	color: #fff !important;
+}
+
+#page .announce div.title, .announce div.title, #page .ui-widget.warning div.title
+{
+	text-align: center;
+	font-weight: bold;
+	border: none;
+}
+
+#page .ui-widget.content.ui-state-error, .ui-widget.content.ui-state-error
+{
+	text-align: center;
+}
+
+#page .ui-widget.content.ui-state-error a, .ui-widget.content.ui-state-error a
+{
+	color: #fff;
+}
+
+#page .ui-widget.content.instructions, .ui-widget.content.instructions
+{
+	width: 600px;
+	margin: 1em auto;
+	background: url(images/information.png);
+}
+
+#page .ui-state-error div.title, .ui-state-error div.title
+{
+	text-align: center;
+	font-weight: bold;
+	border: none;
+}
+
+.pagetitle
+{
+	font-weight: bold;
+	font-size: larger;
+}
+
+button.updatebutton
+{
+	display: none;
+	position: fixed;
+	top: 8px;
+	left: 8px;
+}
+
+#page div.sec1, div.sec1
+{
+	margin: 4px 0;
+}
+
+table.gt, table.rt
+{
+	border-collapse: collapse;
+}
+
+table.gt > tbody > tr.titles > td
+{
+	background: forestgreen;
+	color: white;
+}
+
+table.gt > tbody > tr > td
+{
+	border: 1px solid forestgreen;
+}
+
+table.rt > tbody > tr.titles > td
+{
+	background: firebrick;
+	color: white;
+}
+
+table.rt > tbody > tr > td
+{
+	border: 1px solid firebrick;
+	padding: 2px;
+}
+
+table > tbody > tr.ta
+{
+	vertical-align: top;
+}
+
+td.r
+{
+	text-align: right;
+}
+
+td.c
+{
+	text-align: center;
+}
+
+#page a.sysadmin
+{
+	color: #404040;
+}
+
+#page a.spaced
+{
+	margin: 0 2em;
+}
+
+table.cell3
+{
+	border-collapse: collapse;
+}
+
+table.cell3 > tbody > tr > td
+{
+	padding: 3px;
+}
+
+a img
+{
+	border: none;
+}
+
+div.canregisterfor
+{
+	float:right;
+	margin: 0 0.5em 0.5em 0.5em;
+}
+
+div.canregisterfor div.clickhere
+{
+	margin-bottom: 0.5em;
+	font-size: 11px;
+	line-height: 1.1em;
+	text-align:center;
+}
+
+div.canregisterfor img.individual
+{
+	height: 25px;
+}
+
+.classtime div.editorexerciselinks
+{
+	display: none;
+}
+
+div.editorexerciselinks
+{
+	text-align: right;
+	font-size:11px;
+	color:#aaa;
+}
+
+#page div.editorexerciselinks a,.ui-widget-content div.editorexerciselinks a
+{
+	color: #aaa;
+}
+#page div.editorexerciselinks ul,.ui-widget-content div.editorexerciselinks ul
+{
+	display: table;
+	position: absolute;
+	visibility: hidden;
+	z-index: 99;
+}
+#page div.editorexerciselinks ul > li,.ui-widget-content div.editorexerciselinks ul > li
+{
+	text-align: center;
+}
+#page div.editorexerciselinks ul a, .ui-widget-content div.editorexerciselinks ul a
+{
+	text-decoration: none;
+}

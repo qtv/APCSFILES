@@ -1,0 +1,157 @@
+/********** BACKGROUNDS **********/
+.aquabg {
+	background-color: #00ffff;
+}
+
+.blackbg {
+	background-color: #000000;
+}
+
+.bluebg {
+	background-color: #0000ff;
+}
+
+.darkorangebg {
+	background-color: #ff8c00;
+}
+
+.darkredbg {
+	background-color: #8b0000;
+}
+
+.deepredbg {
+	background-color: #cc0000;
+}
+
+.goldbg {
+	background-color: #ffd700;
+}
+
+.graybg {
+	background-color: #cccccc;
+}
+
+.greenbg {
+	background-color: #008000;
+}
+
+.lightbluebg {
+	background-color: #add8e6;
+}
+
+.lightgraybg {
+	background-color: #ededed;
+}
+
+.limebg {
+	background-color: #00ff00;
+}
+
+.maroonbg {
+	background-color: #800000;
+}
+
+.mauvebg {
+	background-color: #ffc0ff;
+}
+
+.medbluebg {
+	background-color: #6699cc;
+}
+
+.medredbg {
+	background-color: #ff3366;
+}
+
+.medyellowbg {
+	background-color: #ffff99;
+}
+
+.navybg {
+	background-color: #000080;
+}
+
+.orangebg {
+	background-color: #ffa500;
+}
+
+.palebluebg {
+	background-color: #ccffff;
+}
+
+.palegreenbg {
+	background-color: #ccffcc;
+}
+
+.paleredbg {
+	background-color: #ff9999;
+}
+
+.paleyellowbg {
+	background-color: #ffffc0;
+}
+
+.pinkbg {
+	background-color: #ffcccc;
+}
+
+.redbg {
+	background-color: #ff0000;
+}
+
+.rubyredbg {
+	background-color: #cc3333;
+}
+
+.silverbg {
+	background-color: #c0c0c0;
+}
+
+.skybluebg {
+	background-color: #87ceeb;
+}
+
+.softbluebg {
+	background-color: #99ccff;
+}
+
+.tanbg {
+	background-color: #ffcc80;
+}
+
+.tealbg {
+	background-color: #008080;
+}
+
+.warmredbg {
+	background-color: #f00000;
+}
+
+.whitebg {
+	background-color: #ffffff;
+}
+
+.yellowbg {
+	background-color: #ffff00;
+}
+
+/********** FOREGROUNDS **********/
+#page .black {
+	color: #000000;
+}
+
+#page .navy {
+	color: #000080;
+}
+
+#page .red {
+	color: #ff0000;
+}
+
+#page .white {
+	color: #ffffff;
+}
+
+#page .yellow {
+	color: #ffff00;
+}

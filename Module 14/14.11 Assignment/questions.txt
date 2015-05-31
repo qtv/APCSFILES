@@ -1,0 +1,23 @@
+A1:
+1. It takes 8 bits to represent the values 0 to 255.
+2. 3 bytes to represent a RBG color model.
+3. 307200 pixels in a picture 640 x 480.
+
+A2:
+
+How to make colors
+ 
+1. By mixing a high red with a high blue like R: 255 G: 0 B: 255 you can make pink.
+2. Yellow - R: 255 G: 255 B: 0
+3. Purple - R: 110 G: 0 B: 255
+4. White - R: 255 G: 255 B: 255
+5. Dark Grey - R: 75 G: 75 B: 75
+
+A3:
+1. What is the row index for the top left corner of the picture? 0
+2. What is the column index for the top left corner of the picture?  0
+3. The width of this picture is 640. What is the right most column index? 639
+4. The height of this picture is 480. What is the bottom most row index? 479
+5. Does the row index increase from left to right or top to bottom? top to bottom
+6. Does the column index increase from left to right or top to bottom? left to right
+7. Yes, I can see pixelation.

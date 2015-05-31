@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=input
+comment0.target=boolean\ palindrome(java.lang.String)
+comment1.params=input
+comment1.target=java.lang.String\ palindrome_helper(java.lang.String)
+comment1.text=\ \ if(word.charAt(0)\ \=\=\ word.charAt(word.length()\ -\ 1)){\r\n\ \ \ \ \ \ \ \ \ \ \ \ //if\ the\ current\ first\ and\ last\ is\ correct,\ check\ the\ smaller\ word\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ palindrome(word.substring(1,\ word.length()\ -\ 1));\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ palindrome_helper(word);\r\n\ \ \ \ }\r\n\r\n
+numComments=2

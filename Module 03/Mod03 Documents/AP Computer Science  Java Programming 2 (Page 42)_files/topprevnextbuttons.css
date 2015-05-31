@@ -1,0 +1,56 @@
+
+#topprevnextbuttons 
+{
+	float: right;
+	width: 104px;
+	height: 42px;
+	position: relative;
+}
+
+#topprevnextbuttons div
+{
+	position: absolute;
+	left: 44px;
+	top: 0px;
+}
+
+#topprevnextbuttons #ihelpimage
+{
+	position: relative;
+	left: 0px;
+	top: 10px;
+	display: none;
+}
+
+#topprevnextbuttons img 
+{
+    border: none;
+}
+
+#contentslink 
+{
+	position: absolute;
+	left:2px;
+	top: 0px;
+}
+
+#indexlink 
+{
+	position: absolute;
+	left:13px;
+	bottom:0px;
+}
+
+#prevlink, #nextlink, #contentslink, #indexlink
+{
+	cursor: pointer;
+} 
+
+#page #topprevnextbuttons a:hover,
+#page #topprevnextbuttons a:link,
+#page #topprevnextbuttons a:visited,
+#page #topprevnextbuttons a
+{
+	background: transparent;
+	text-decoration: none;
+}

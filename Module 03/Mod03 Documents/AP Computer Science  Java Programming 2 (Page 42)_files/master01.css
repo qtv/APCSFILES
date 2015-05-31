@@ -1,0 +1,371 @@
+/******** GLOBAL ********/
+body {
+	font: 70%/1.7em Arial, "Lucida Grande", Helvetica, sans-serif;
+	background: #dadada url('/filedata/imacsweb/images/background.gif');
+	margin: 0;
+	overflow: -moz-scrollbars-vertical;
+	padding: 0;
+}
+
+a {
+	outline: none;
+}
+
+img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.hide {
+	display: none;
+}
+
+/******** STRUCTURE ********/
+#top, #middle, #bottom {
+	margin: 0 auto;
+	text-align: left;
+	width: 810px;
+}
+
+#top {
+	background: url('/filedata/imacsweb/images/top-bg.png') no-repeat center bottom;
+	height: 35px;
+}
+
+#middle {
+	background: url('/filedata/imacsweb/images/middle-bg-short.png') repeat-y center top;
+}
+
+#bottom {
+	background: url('/filedata/imacsweb/images/footer-bg.png') no-repeat center top;
+	height: 61px;
+}
+
+#container {
+	margin: 0 5px;
+	width: 800px;
+	position: relative;
+}
+
+#content {
+	clear: left;
+}
+
+#rightlogo {
+	float:right;
+	margin:20px 20px 0px 0px;
+}
+
+/******** TOPNAV ********/
+#topnav {
+	width: 800px;
+	float: left;
+	background: url('/filedata/imacsweb/images/middle-bg.jpg') right top repeat-y;
+}
+
+#topnav ul {
+	background: #4482eb url('/filedata/imacsweb/images/nav-bg.jpg') left top repeat-x;
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 800px;
+	border-bottom: 1px solid #000;
+}
+
+#topnav li {
+	float: left;
+	text-align: center;
+	display: inline;
+	background: url('/filedata/imacsweb/images/nav-a-bg.jpg') right top repeat-y;
+}
+
+#topnav .right {
+	float: right;
+	background: url('/filedata/imacsweb/images/nav-a-bg.jpg') left top repeat-y;
+}
+
+#topnav .singleline a {
+	line-height: 2.6em;
+}
+
+#topnav a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 3px;
+	font-family: "Tahoma", sans-serif;
+	float: left;
+	line-height: 1.3em;
+	padding: 4px 20px;
+	display: block;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#topnav #youhavemail a
+{
+	padding: 4px 4px;
+}
+
+#topnav #youhavemail img
+{
+	height: 32px;
+	float: left;
+	margin: 0px 4px;
+}
+
+#topnav a span {
+	display: block;
+}
+
+#topnav a:hover {
+	color: #abfc08;
+}
+
+/******** NAVBAR ********/
+#navmenu
+{
+	cursor: pointer;
+}
+
+#arrow
+{
+	line-height: 2.6em;
+	padding-left: 1.7em;
+}
+
+#navbar
+{
+	border-right: 1px solid #808386;
+	border-left: 1px solid #808386;
+	display: none;
+	left: 0px;
+	margin: 0;
+	position: absolute;
+	top: 0px;
+	width: 150px;
+	z-index: 99;
+}
+
+#navbar a.more {
+	cursor: default;
+}
+
+#navbar ul, #navbar li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar li span
+{
+	display: block;
+	line-height: normal;
+}
+
+#navbar ul li {
+	position: relative; /* control where menu opens up */
+	background: #bdcce5;
+	border-bottom: 1px solid #858fa1;
+	line-height: 1.6em;
+}
+
+#navbar li a {
+	display: block;
+	border-top: 1px solid #becde6;
+	text-decoration: none;
+	color: #000;
+	height: 1%; /* IE7 BUG */
+}
+
+#navbar li a, #navbar li ul li a {
+	padding: 1px 0 1px 15px;
+	border-top: 1px solid #cbd8ee;
+	background: #A3B8DB;
+	font-size: 95%;
+}
+
+#navbar ul ul {
+	display: none;
+}
+
+#navbar li ul li a {
+	background: #bdcce5;
+	padding-left: 28px;
+}
+
+#navbar li.first a {
+	border-top: #d1dbed;
+	background: #d6dadf;
+	color: #000;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+#navbar a.closed {
+	padding-left: 28px;
+	background: #a3b8db url('/filedata/imacsweb/images/expand-btn.gif') no-repeat 10px 50%;
+}
+
+#navbar a.closed:hover {
+	background: #fff url('/filedata/imacsweb/images/expand-btn.gif') no-repeat 10px 50%;
+	cursor: default;
+}
+
+#navbar a.open {
+	padding-left: 28px;
+	background: #a3b8db url('/filedata/imacsweb/images/collapse.gif') no-repeat 10px 50%;
+}
+
+#navbar a.open:hover {
+	background: #fff url('/filedata/imacsweb/images/collapse.gif') no-repeat 10px 50%;
+	cursor: default;
+}
+
+#navbar li.last {
+	border-bottom: none;
+}
+
+#navbar a:hover
+{
+	background: #fff;
+}
+
+#navbar .youhavemail a
+{
+	padding: 4px 4px;
+}
+
+#navbar .youhavemail img
+{
+	height: 16px;
+	float: left;
+	margin: 0px 4px 0px 0px;
+}
+
+/******** FOOTER ********/
+#footer
+{
+	min-height: 31px;
+	color: #000;
+}
+
+#abovefooter
+{
+	clear: both;
+}
+
+.seolinks
+{
+	margin-top:2em;
+	text-align:center;
+	font-size: 11px;
+	color:#a0a0a0;
+	line-height:1.25em;
+}
+
+.seolinks a
+{
+	color: #a0a0a0; white-space: nowrap;
+}
+
+#bottom p {
+	color: #fff;
+	margin-top: 12px;
+	float: right;
+}
+
+#bottom ul
+{
+	width: 100%;
+	list-style: none;
+	float: left;
+	padding: 0px;
+	margin: 19px 0px 0px 0px;
+}
+
+#bottom li
+{
+	display: inline;
+	color: #fff;
+	font-size: 90%;
+	padding-left: 24px;
+}
+
+#bottom li.right
+{
+	float: right;
+	padding: 0px;
+	margin-right: 20px;
+	padding: 0px;
+}
+
+#bottom a {
+	color: #fff;
+	padding-right: 8px;
+	font-size: 90%;
+}
+
+#bottom a:hover {
+	text-decoration: none;
+}
+
+/******** GENERAL ********/
+div.ctableouter {
+	margin-bottom: 1em;
+	margin-top: -0.2em;
+	text-align: center;
+}
+
+div.ctableinner, div.ctableinner table {
+	margin: 0 auto;
+}
+
+/******** EDITORS ********/
+#elinks {
+	background-color: #bdcce5;
+	border-bottom: 1px solid #000080;
+	border-left: 1px solid #000080;
+	border-right: 1px solid #000080;
+	position: fixed;
+	top: 32px;
+	right: 8px;
+	text-align: center;
+	width: 70px;
+}
+#elinks a, #elinks a:link, #elinks a:visited, #elinks a:hover {
+	border-top: 1px solid #000080;
+	color: #000000;
+	display: block;
+	text-decoration: none;
+}
+#elinks a:hover {
+	background-color: #ffffff;
+}
+
+#page TABLE.greenbordertable
+{
+	background: forestgreen;
+}
+
+#page TABLE.greenbordertable TD
+{
+	padding: 2px;
+	background: white;
+}
+
+/***** Footnotes ********/
+#page a.footnote
+{
+  border-bottom: 1px dotted black;
+  background:none;
+  color:black;
+}
+.cluetip-default #cluetip-outer,.cluetip-default #cluetip-inner
+{
+  font-size: 1.1em;
+}
+

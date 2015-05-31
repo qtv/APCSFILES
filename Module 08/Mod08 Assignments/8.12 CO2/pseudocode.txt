@@ -1,0 +1,12 @@
+Pseudocode - 
+
+1. Declare private instance variables
+2. Declare object
+	2a. Assign instance variables to object variables.
+3. Write calculation methods for Gross Emission, Waste Reduction, net Waste Reduction, bulb waste reduction, pounds of CO2 generated from gas, and electricity emissions.
+5. Write get methods for variables (number of people, Paper booleans, etc)
+
+6. In Tester, assign co2 as an arrayList of CO2FootPrint.
+7. Assign values to variables in object.
+8. Output everything
+	8a. use "for" method to display values, utilizing dataRecord 

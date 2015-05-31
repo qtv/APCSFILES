@@ -1,0 +1,61 @@
+/* All curriculums pages, all databases */
+
+#page .gexbox
+{
+	margin-bottom: 2px;
+}
+
+#quizcopyright
+{
+	display: none;
+}
+
+#page .sysadmin
+{
+	color: #b0b0b0;
+}
+
+#page .sysadmin a
+{
+	color: #b0b0b0;
+}
+
+#page button.imacsbutton.ui-button-text-only .ui-button-text, button.imacsbutton.ui-button-text-only .ui-button-text
+{
+	/*padding: 0.1em 0.5em; 20120515 */
+}
+
+#page .tipcontent
+{
+	display: none;
+	color: #696969;
+	font-size: smaller;
+}
+
+#page .tipcontent span.footnotetitle
+{
+  display: block;
+  font-weight: bold;
+  background-color: #aaaaaa;
+  padding: 3px;
+}
+
+.footnoteshadowbox
+{
+	box-shadow: 3px 3px 10px #aaa;
+	padding: 0.5em;
+	border-radius: 6px;
+}
+
+#page .tip
+{
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px dotted #404040;
+}
+
+#page a.footnote
+{
+	text-decoration: none;
+	cursor: default;
+}

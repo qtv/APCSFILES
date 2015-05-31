@@ -1,0 +1,647 @@
+/*Created 10 April 2007 by Paul Saieg*/
+
+#container	{
+	border: 0;
+	margin: 0px 5% 0px 5%;
+	padding: 0;
+	width: 90%;
+}
+
+#headerL {
+	background: url(../genimages/temimages/header_bg.gif) repeat-x left top;
+	height: 46px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-size: 130%;
+	/*padding: 5px 1px 1px 40px;*/
+	padding-top: 0px;
+	margin: 0px;
+}
+
+#headerR	{
+	text-align: right;
+	vertical-align: bottom;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	right: 0%;
+	top: 12px;
+	position: relative;
+}
+
+.showLink {
+font-size:70%;
+}
+
+h1 {
+	font: bold 16pt Arial, Helvetica, sans-serif;
+	background: url(../genimages/temimages/h1_bg.gif) no-repeat left top;
+	color: #FF7800;
+	padding: 5px 0px 0px 90px;
+	height: 73px;
+	margin: 0px;
+}
+
+h2 {
+	font: bold 14pt Arial, Helvetica, sans-serif;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FF7800;
+}
+
+/*for H2 styled links*/
+.h2 {
+	font: bold 14pt Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+.colorText {
+	color: #000;
+}
+
+.colorTextOrange {
+	color: #FF7800;
+}
+
+.colorTextRed {
+	color: #FF0000;
+}
+
+.colorText2 {
+	color: #00008b;
+}
+
+.compFont {
+	font-family: "Courier New", Courier, monospace;
+	color: #000;
+	white-space: nowrap;
+}
+
+.normal_text {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.underline {
+	text-decoration:underline;
+}
+
+
+.headWord {
+	margin-left: 0px;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	margin-bottom: 5px;
+}
+
+.definitionText {
+	margin-bottom: 40px;
+	text-indent: 40px;
+	font-size: 11px;
+}
+
+#content {
+	padding: 0px 30px 0px 70px;
+}
+
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12pt;
+}
+
+ul li {
+	margin-top: 0px;
+	margin-left: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12pt;
+}
+
+ol li {
+	margin-top: 0px;
+	margin-left: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12pt;
+}
+
+li li {
+	margin-top: 5px;
+	margin-left: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12pt;
+}
+
+table td {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12pt;
+
+}
+
+body,p,li,blockquote {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12pt;
+}
+
+/**************************************************************************************/
+/************************************ Begin Div Boxes *********************************/
+/**************************************************************************************/
+
+/******************** Assignment / Objective Div Box ********************/
+.divBox {
+	border-width: 2px 2px 2px 2px;
+	border-style: dashed;
+	border-color: #FF7800;
+	padding-right: 30px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:30px;
+	padding-left:10px;
+	width: 90%;
+}
+
+.divBox p,li,blockquote	{
+	margin: 0px auto 10px 50px;
+	padding: 0px 20px 10px 0px;
+}
+
+.divBox h3	{
+	line-height: 1;
+	padding: 20px 5px 10px 65px;
+	margin: -35px 0px 0px -20px; 
+	background: url(../genimages/div_bg.jpg) no-repeat left top;
+}
+
+.divBox h3 span	{
+	background-color: #FFF;
+}
+
+.divHead{
+	line-height: 1em;
+	padding: 20px 0px 10px 65px;
+	position:absolute;
+	margin-top: -18px;
+	background: url(../genimages/div_bg.gif) no-repeat left top;
+}
+
+/* html .divHead{
+	line-height: 1em;
+	padding: 20px 0px 10px 65px;
+	position:absolute;
+	margin-top:-28px;
+	background: url(../genimages/div_bg.jpg) no-repeat left top;
+	left: 97px;
+	top: 343px; 
+}*/
+
+
+.divHead h3 span	{
+	background-color: #FFF;
+}
+
+/******************** Code Example Div Box ********************/
+.divBox1 {
+	border: 2px dashed #FF7800;
+	background-color: #F0F0F0;
+	padding: 10px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	min-width: 600px;
+}
+
+.divBox1 p,li,blockquote	{
+	margin-left: 30px;
+	padding-right: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 80%;
+	
+}
+
+.divBox1 h2 {
+	font-size: large;
+	padding: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+/******************** eIMACS Div Box ********************/
+.divBox2 {
+	border-width: 2px 0px 0px 2px;
+	border-style: dashed;
+	border-color: #FF7800;
+	margin-top: 30px;
+	margin-left: 80px;
+	width: auto;
+	background: url(../genimages/eimacs.gif) no-repeat left top;
+}
+
+.divBox2 p,li,blockquote	{
+	margin-left: 50px;
+	padding-right: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.divBox2 a {
+	font-size: large;
+	padding: 13px;
+	position: relative;
+	top: 13px;
+	left: 70px;
+}
+
+/******************** Mentor divBox ********************/
+#Mentor{ margin: 2px;}									
+
+* html #resize { position: absolute; }
+
+.divBox3 {
+	height: auto;
+	width: 90%;
+	border-width: 2px 2px 2px 2px;
+	border-style: dashed;
+	border-color: #FF7800;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+	padding: 10px;
+	height:auto;
+	background-color: #D4E6F2;
+}
+
+h3.orangeTitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FF7800;
+	margin-top:-3px;
+	padding-left:110px;
+}
+
+.divBox3signature	{
+	padding-right:10px;
+	text-align: left;
+	float: right;
+	font-weight:bold;
+	font-size:60%;
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#333333;
+}
+
+#clearDiv{										/*Fix for IE6 - div to clear float*/
+	clear: both;
+}
+/******************** Compile Error Div Box ********************/
+.divBox4 {
+	border: 2px dashed #FF7800;
+	background-color: white;
+	padding: 22px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	min-height:150px;
+  	height:auto !important;			/*IE "min-height" bug Fix*/
+  	height:150px;					/*IE "min-height" bug Fix*/
+	background: url(../genimages/icon_compiler_error.gif) no-repeat left top;
+}
+
+.divBox4 p,li,blockquote	{
+	margin-left: 100px;
+	padding-right: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.divBox4 h2 {
+	margin-left: 100px;
+	padding-right: 20px;
+	font-size: large;
+	margin-top: 0px;
+	padding: 0px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+/******************** Syntax Error Div Box ********************/
+.divBox5 {
+	border: 2px dashed #FF7800;
+	background-color: white;
+	padding: 22px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	min-height:150px;
+  	height:auto !important;			/*IE "min-height" bug Fix*/
+  	height:150px;					/*IE "min-height" bug Fix*/
+	background: url(../genimages/icon_syntax_error.gif) no-repeat left top;
+}
+
+.divBox5 p,li,blockquote	{
+	margin-left: 100px;
+	padding-right: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.divBox5 h2 {
+	margin-left: 100px;
+	padding-right: 20px;
+	font-size: large;
+	margin-top: 0px;
+	padding: 0px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+/******************** Logic Error Div Box ********************/
+.divBox6 {
+	border: 2px dashed #FF7800;
+	background-color: white;
+	padding: 22px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	min-height:150px;
+  	height:auto !important;			/*IE "min-height" bug Fix*/
+  	height:150px;					/*IE "min-height" bug Fix*/
+	background: url(../genimages/icon_logic_error.gif) no-repeat left top;
+}
+
+.divBox6 p,li,blockquote	{
+	margin-left: 100px;
+	padding-right: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.divBox6 h2 {
+	margin-left: 100px;
+	padding-right: 20px;
+	font-size: large;
+	margin-top: 0px;
+	padding: 0px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+/******************** Runtime Error Div Box ********************/
+.divBox7 {
+	border: 2px dashed #FF7800;
+	background-color: white;
+	padding: 22px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	min-height:150px;
+  	height:auto !important;				/*IE "min-height" bug Fix*/
+  	height:150px;						/*IE "min-height" bug Fix*/
+	background: url(../genimages/icon_runtime_error.gif) no-repeat left top;
+}
+
+.divBox7 p,li,blockquote	{
+	margin-left: 100px;
+	padding-right: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.divBox7 h2 {
+	margin-left: 100px;
+	padding-right: 20px;
+	font-size: large;
+	margin-top: 0px;
+	padding: 0px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+/********************* for right-aligned images with copyright info********************/
+.copyrightR	{
+	margin-left:10px;
+	text-align: center;
+	float: right;
+	font-size: 60%;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333;
+}
+
+/********************* for left-aligned images with copyright info*********************/
+.copyrightL	{
+	margin-right:10px;
+	text-align: center;
+	float: left;
+	font-size: 60%;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#333333;
+}
+
+/********************* for Center-aligned images with copyright info*********************/
+.copyrightC	{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	float: none;
+	font-size: 60%;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#333333;
+}
+
+/********************* Glossary Head-Letter Box *********************/
+.LetterBox {
+	margin-left: -40px;
+	height: 80px;
+	width: 80px;
+	border-style: solid;
+	border-color: #FF7800;
+	border-width: 1px;
+	background-color: #D4E6F2;
+	text-align: center;
+	font-size: 60px;
+	line-height: 77px;
+	font-family: "Times New Roman", Times, serif;
+	color: #FF7800;
+	
+}
+
+.GlossarySpacer {
+	margin-top: -41px;
+	margin-bottom: 61px;
+	border: 0;
+	height: 1px;
+	width: 75%;
+	background-color: #FF7800;
+}
+
+* html .GlossarySpacer {				/* fix for IE by clearing background color */
+	margin-top: -41px;
+	margin-bottom: 61px;
+	border: 0;
+	height: 1px;
+	width: 75%;
+	color: #FF7800;
+	background: transparent;
+}
+
+/********************* Glossary Navigation Box *********************/
+.navHeadBox {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: none;
+	text-align: center;
+	letter-spacing: 0.15em;
+	font-size: 130%;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif; 
+	color:#000;
+}
+
+.navHeadBox :link {
+text-decoration:none;
+color: #000;
+}
+
+.navHeadBox :visited {
+text-decoration:none;
+color: #000;
+}
+
+
+/**************************************************************************************/
+/************************************** End Div Boxes *********************************/
+/**************************************************************************************/
+
+#bottom_left {
+	background: url(../genimages/temimages/bottom_center.gif) no-repeat right bottom;
+	height: 120px;
+	vertical-align: bottom;
+}
+
+/********************* Glossary Link Treatment  - in text *********************/
+.gloss{ color:#CC3300;}
+
+#bottom {
+	background: url(../genimages/temimages/bottom_right.gif) no-repeat right bottom;
+	height: 120px;
+	padding-top: 100px;
+	width: 176px;
+	text-align: right;
+}
+
+#footerR {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	right: 7%;
+	vertical-align:top;
+	height: 32px;
+}
+
+#footer	{
+	background: url(../genimages/temimages/footer_bg.gif) repeat-x left top;
+	height: 32px;
+	font-size: 60%;
+	color: #000;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.copyright {
+		font-size: 60%;
+}
+
+.indent {
+	margin-left: 75px;
+}
+
+.textOnly {
+	font-size: 10pt;
+}
+
+.assignment {
+	color: #ff7800;
+}
+.Courseinfo {
+	font: bold 12pt Arial, Helvetica, sans-serif;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+
+.highlight {
+background-color: #FFFF00;
+font-weight: normal;
+}
+
+.highlight2 {
+background-color: #B8DBE7;
+font-weight: normal;
+}
+
+.highlight3 {
+background-color: #00CC66;
+font-weight: normal;
+}
+
+ol.list_padding li {
+	margin-bottom: 1.0em;
+}
+
+ul.list_padding li {
+	margin-bottom: 1.0em;
+}.imgRight {
+	float: right;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+
+/*    SCHMOOP STYLE FOR AP REVIEWS LINK */
+
+.ap_review {
+    /* background-image: url("../genimage/ap_review_schmoop.png"); */
+	position:relative;
+	height: 72px;
+    width: 400px;
+	margin:auto;
+	border:0;
+}
+
+
+.ap_review span {
+	position:absolute;
+	z-index:20;
+	top:27px;
+	left:150px;
+	width:240px;
+	text-align:center;
+	color: #EDECEC;
+	background-color:transparent;
+	background-image:none;
+}
+.ap_review img { border:0;}

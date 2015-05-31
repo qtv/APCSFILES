@@ -1,0 +1,21 @@
+
+12/07/14
+
+1. Imports IO error exceptions class.
+2. Imports the PrintWriter class to write to text files.
+3. Imports File
+4. Names class "MysteryPrintWriter"
+5. Beginning bracket for MysteryPrintWriter class
+6. begins public main function, throwing IO exceptions when they occur
+7. Beginning bracket for main function
+8. separating line
+9. Names file we are writing to, "bah.txt"
+10. separating line
+11. for loop when loop = 1, and loop is less than or equal to 10
+12. beginning bracket for for loop
+13. Writes to bah.txt with a series of chars
+14. ends loop
+15. closes the file when finished
+16. separating line
+17. end of main method
+18. end of class

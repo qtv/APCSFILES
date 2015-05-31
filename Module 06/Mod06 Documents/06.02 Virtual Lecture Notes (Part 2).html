@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0091)http://learn.flvs.net/webdav/educator_apcsa_v14/module06/06_02_VirtualLectureNotesPart2.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<title>06.02 Virtual Lecture Notes (Part 2)</title>
+<link href="./06.02 Virtual Lecture Notes (Part 2)_files/APCompSci.css" rel="stylesheet" type="text/css">
+</head>
+
+<body gram_dict="true" data-feedly-mini="yes">
+<div id="container">
+<h3>06.02 Virtual Lecture Notes (Part 2)</h3>
+
+<p><strong>Formatting Integer Output</strong></p>
+<p>The following example illustrates how to format a numeric integer value with
+printf().</p><p>
+
+</p><p>System.out.printf("%d%n", 16934);<br>
+System.out.printf("%d%n", 12);<br>
+System.out.printf("%d%n ", -301);<br>
+System.out.printf(" %d%n ", 7432);<br>
+</p>
+
+<p>Notice that quotation marks only surround the fo
+rmat string inside the parentheses, not
+the argument to be formatted.</p>
+
+<p>As usual, the format string begins with a pe
+rcent sign (%). The c
+onversion character "d"
+(i.e., decimal integer) is used to format an
+argument of type int, byte, short, and long.
+This will be confusing, since you pr
+obably associate "d" with doubles.</p>
+
+
+<p>Open the <a href="http://learn.flvs.net/webdav/educator_apcsa_v14/module06/javamod06/FormattingNumericValues.java" target="_blank">FormattingNumericValues.java</a> file into a BlueJ project folder. Open the
+file and notice that most of the code
+has been commented out. As you study the
+examples in the lesson, uncomment the appropr
+iate lines to see how each format string
+works with the
+printf( )
+method. A simple scale is pr
+ovided to help you visualize
+justification and field width.</p>
+
+
+<p>Run the program and ask yourself the following questions:</p>
+<ul>
+<li>What happens if you remove the <strong><mark>escape
+characters</mark></strong> from the format string?</li>
+<li>What happens if you forget to includ
+e the conversion character ("d")?</li>
+<li>Are the numbers right or left justified?</li>
+<li>What is the effect of adding a space w
+ithin the format string (as in the last
+example above)?</li>
+</ul>
+
+
+<p>The output of these four lines of code shows how
+easy it is to format integers, but it also
+illustrates a problem: the numbers do not line up
+nicely. This is easy to fix, because, as
+with Strings, the width of the output fiel
+d for numeric values can be specified.
+Uncomment the following lines of code in the
+demo program. In this segment, variables
+are used for the argument instead of actual va
+lues. Run the program again and notice the
+difference.</p>
+
+<p>
+System.out.printf("%10d%n", intArgument1);<br>
+System.out.printf("%10d%n", intArgument2);<br>
+System.out.printf("%10d%n", intArgument3);<br>
+System.out.printf("%10d%n", intArgument4);<br>
+System.out.printf("%+10d%n", intArgument4);<br>
+</p>
+
+<p>It is good programming practice to always incl
+ude a field width when formatting numeric
+values, to avoid alignment problems. Adding a
+"10" to the format string indicates that
+each argument will be printed in a field 10 ch
+aracters wide. This right justifies and
+correctly aligns the numbers. Notice that
+the minus sign is automatically handled and
+you can use the plus (+) sign as a flag to
+designate positive numb
+ers if necessary.</p>
+
+
+<p>Experiment with the
+printf( )
+statement by changing the fi
+eld widths and values of
+arguments. For example, what happens if you try to print a number that
+is larger than the
+assigned field width? There
+are also numeric conversion fl
+ags for left justification,
+padding values with leading zeroes, and enclos
+ing negative numbers in
+parentheses. You
+can find further information abou
+WFRQYHUVLRQIODJV
+in the Java API.
+</p>
+
+<p>Instead of printing values with separate
+print statements, you m
+ay want to format
+multiple values in the same statement. Un
+comment the following line to see how easily
+this can be done.</p>
+
+<p>System.out.printf("%1
+0d%7d%,15d\n",-25,4963,7894502);</p>
+
+<p><strong>Formatting Decimal Output</strong></p>
+
+<p>So far we have dealt with formatting integers, but what about decimal numbers? Double
+values are just as easy to handle. Uncomm
+ent the following lines of code, then run the
+program and observe the output in
+relation to each format string.</p>
+
+
+<p>System.out.printf("%f\n",3.141592654);<br>
+System.out.printf("%9f\n",3.141592654);<br>
+</p>
+
+<p>As you have seen previously, all format st
+rings are written within quotation marks and
+begin with a percent sign (%). The letter
+"f" is the conversion character for a double,
+float, or BigDecimal argument.</p>
+
+
+<p>It would appear that these two lines print the va
+lue of pi to nine decimal places, but that is
+not what the output reveals. (Be sure to
+use the scale to help
+count the number of
+positions printed.)
+The format string of the first statement doe
+s not contain a field
+width, while the second
+statement specifies a field width of nine. When the format string does not indicate a field
+width, only six decimal places are printed by
+default. Although the second statement
+specified a field width of nine, the entire
+number did not print. However, count how
+many positions were printed, including the leading space and the decimal point. The
+value was truncated to f
+it within the space
+allocated by the format string.</p>
+
+
+<p>It is possible to control the number of decimal places printed, by specifying the precision
+of the output. This is illu
+strated in the following two lin
+es by the decimal point and
+number following the field width:</p>
+
+<p>System.out.printf("%12.9f\n",3.141592654); <br>
+System.out.printf("%15.4f\n",3.141592654);<br>
+</p>
+
+<p>In the first line, pi is printed with nine
+decimal places in a field width of 12. In the
+second line, pi is printed in
+a field width of 15, put with a
+precision of only four decimal
+positions. Uncomment these lines in the demo program and observe the resulting output.
+Be sure to experiment with other numb
+ers, field widths, and precisions until you
+understand how to write format strings for decimal numbers.</p>
+
+<p>You have covered a lot of detail in this
+lesson. Only with practice will you become
+comfortable with reading input from the ke
+yboard and formatting output to the screen.
+Formatting is a detail that is easy to i
+gnore, but poorly-formatted program output is
+difficult to read, and generation of sloppy
+output is regarded as bad programming
+practice. You may find that formatting is
+something you save to do once a program
+compiles with no errors and runs correctly
+; however, never submit a program that is
+poorly formatted. And finally, we have not c
+overed formatting dates, time, or currency.
+Consult the Java API if you have a n
+eed to format these types of output.</p>
+
+
+
+
+
+
+
+</div>
+
+<div id="feedly-mini" title="feedly Mini tookit"></div></body><div class="gr-context gr-dict gr-context-loader gr-dict-freemium" style="display: none;"><span class="gr-triangle"></span><div class="gr-placeholder"></div><a href="http://www.grammarly.com/?utm_source=dict&utm_medium=link&utm_campaign=chrome_plg" target="_blank" class="gr-hint-settings"></a><strong class="gr-title"></strong><div class="gr-dict-content"></div></div><div class="b-freemium-editor" style="display: none;"><div class="b-freemium-editor-back"></div><iframe class="gr-freemium-ifr"></iframe></div></html>

@@ -1,0 +1,41 @@
+CO2FootPrint
+
+<<Instance Variables>>
++ int myNumPeople2
++ int myNumBulbs
+
++ boolean myPaper
++ boolean myPlastic 
++ boolean myGlass
++ boolean myCans
+
++ double myEmissions 
++ double myReduction 
++ double myNetEmissions
++ double bulbReductions
++ double elecPricePerKWH 
++ double avgElecBill 
++ double elecEmission
++ double myGallons
++ double myPoundsCO2Gas
+
++ ArrayList CO2FootPrint
+
+<<Constructor>>
++ CO2FootPrintTester
+
+<<Methods>>
++ double calcGrossWasteEmission
++ double calcWasteReduction
++ double calcNetWasteReduction
++ double calcBulbReduction
++ double calcElecEmission
++ double calcPoundsCO2Gas
++ int getNumPeople
++ boolean getPaper
++ boolean getGlass
++ boolean getPlastic
++ boolean getCans
++ boolean getEmissions
++ boolean getNetEmissions
++ boolean getGallons

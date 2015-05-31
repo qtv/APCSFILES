@@ -1,0 +1,845 @@
+/********** Localize elements defined elsewhere **********/
+#page ol, #page ul, #page li {
+	color: #000;
+}
+
+/********** Give more generous line-height **********/
+#page {
+	line-height: 130%;
+}
+
+/********** HEADINGS **********/
+#page h1 {
+	background-color: transparent;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#page h2 {
+	background-color: transparent;
+	color: #008000;
+	/* removed font-family statement */
+	font-style: italic;
+	font-weight: bold;
+}
+
+#page h3 {
+	background-color: #ffeded;
+	border: 1px solid #800000;
+	color: #dc143c;
+	/* removed font-family statement */
+	font-style: italic;
+	font-weight: bold;
+	padding: 4px;
+}
+
+#page h3.subtitle {
+	border-bottom: 1px solid #800000;
+}
+
+#page h3 a.pag, #page h3 a.pag:link, #page h3 a.pag:visited, #page h3 a.pag:active {
+	background-color: #e0ffff;
+	border: 1px solid #e0ffff;
+	color: #dc143c;
+	font-size: smaller;
+	font-style: normal;
+	padding: 2px 4px;
+	text-decoration: none;
+	width: 1em;
+}
+
+#page h3 a.pag:hover {
+	border-color: #dc143c;
+}
+
+#page h3 a.pagthis, #page h3 a.pagthis:link, #page h3 a.pagthis:visited, #page h3 a.pagthis:active,
+#page h3 a.pagthis:hover {
+	background-color: #dc143c;
+	border: 1px solid #dc143c;
+	color: #ffffff;
+	font-size: smaller;
+	font-style: normal;
+	font-weight: bold;
+	padding: 2px 4px;
+	text-decoration: none;
+	width: 1em;
+}
+
+#page h4 {
+	background-color: transparent;
+	color: #0000ff;
+	/* removed font-family statement */
+	font-size: larger;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#page h4.ex {
+	color: #800000;
+	margin-bottom: 0.65em;
+}
+
+#page h6 {
+	background-color: transparent;
+	color: #000;
+	/* removed font-family statement */
+	font-size: smaller;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/********** PARAGRAPHS AND DIVS **********/
+#page p, #page div, #page dl, #page dt, #page dd {
+	color: #000;
+	/* removed font-family statement */
+}
+
+#page p.fineprint {
+	color: #ff0000;
+	font-size: x-small;
+}
+
+/********** To sidestep IE inheritance bugs in tables **********/
+#page .main {
+	color: #000;
+	/* removed font-family statement */
+}
+
+/********** EXERCISES **********/
+#page .ansbtn {
+	font-size: small;
+	text-align: right;
+}
+
+#page .exbody {
+	margin-left: 3em;
+}
+
+#page .exbox {
+	background-color: #ffffed;
+	border: 1px solid #008000;
+	margin-top: 0em;
+	padding: 4px;
+	top: -1px;
+}
+
+#page .excontent {
+	margin-left: 2.5em;
+	margin-top: 0.8em;
+}
+
+#page .exlabel {
+	background-color: #edffed;
+	border: 1px solid #008000;
+	color: #008000;
+	font-size: large;
+	margin-bottom: 0em;
+	padding: 4px;
+}
+
+/********** GENERAL FOR THIS CURRICULUM **********/
+#page a:hover {
+	background-color: #ffff99;
+	color: #990000;
+}
+
+#page .javacodediv
+{
+	background-color: #ffefd5;
+	border: 1px solid #dc143c;
+	color: #0000ff;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 12px;
+	margin: 8px 0px;
+	padding: 6px 4px;
+	line-height: 115%;
+}
+
+#page applet.appletbox
+{
+	border-left: 1px solid slategray;
+	border-top: 1px solid slategray;
+}
+
+#page div.javacodediv div
+{
+	color: #0000ff;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+}
+
+#page div.javacodediv textarea,
+#page div.javacodediv input
+{
+	color: #0000ff;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+}
+
+#page div.javacodediv textarea
+{
+	background-color: #ffffff;
+}
+
+#page div.javabtnsdiv
+{
+	padding: 6px 4px;
+	vertical-align: baseline;
+}
+
+#page div.javabtnsdiv input
+{
+	color: #000080;
+	/* removed font-family statement */
+}
+
+#page div.javasubmitalldiv
+{
+	text-align: center;
+	margin: 0.25em;
+	display: none;
+}
+
+#page div.javasubmitalldiv > input
+{
+	color: #dc143c;
+	/* removed font-family statement */
+}
+
+#page div.javasubmitalldiv > input#freeresponsesave
+{
+	color: #000000;
+}
+
+#page div.javabtnsdiv > div
+{
+	margin-bottom: 2px;
+}
+
+#page div.javabtnsdiv .runbutton,
+#page div.javabtnsdiv .compilecheckbutton
+{
+}
+
+#page div.javabtnsdiv .runbuttonsubmit
+{
+	color: #dc143c;
+	float: right;
+}
+
+#page div.javabtnsdiv div.compiletestresult .h1
+{
+	font-weight: bolder;
+}
+
+#page div.javabtnsdiv div.compiletestresult .error
+{
+	color: 	#dc143c;
+	line-height: 100%;
+}
+
+#page div.javabtnsdiv div.compiletestresult .log
+{
+	font-size: 9pt;
+	line-height: 100%;
+}
+
+#page div.javabtnsdiv div.compiletestresult
+{
+}
+
+#page .listprogramlink
+{
+	color: dimgray;
+	float: right;
+	/* removed font-family statement */
+	font-style: italic;
+	line-height: 1.7em;
+	margin-right: 1em;
+}
+
+#page .listprogramdiv
+{
+	background-color: #dcdcdc;
+	border: 1px solid forestgreen;
+	display: none;
+	padding: 1ex;
+}
+
+#page div.javacodediv div.javacodeerror
+{
+	background-color: #dc143c;
+	color: #ffffff;
+	font-family: "Courier New",Courier,monospace;
+	overflow: auto;
+	padding: 4px;
+	white-space: normal;
+}
+
+#page .javacodeoutput
+{
+	background-color: #CCFFCC;
+	color: #0000FF;
+	font-family: "Courier New",Courier,monospace;
+	padding: 4px;
+}
+
+#page div.javaapplet {
+	background-color: #ccffcc;
+	border: 2px inset #0000ff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6px;
+}
+
+#page div.javasubmitinfo {
+	background-color: #c0ffc0;
+	border: 3px double #008000;
+	padding: 4px;
+	margin-top: 8px;
+}
+
+#page div.javagradercomments {
+	background-color: #ffc0c0;
+	border-left: 5px solid #ff0000;
+	font-style: italic;
+	margin-top: 6px;
+	padding: 4px;
+}
+
+#page div.javagradercomments ul {
+	margin-bottom:0;
+	margin-left: 1.5em;
+	margin-top:0;
+	padding-left: 0;
+}
+
+#page div.javacompilereport {
+	border: 1px solid black;
+	background-color: ivory;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+	margin: -9px 0 8px 0;
+	overflow: auto;
+	padding: 4px;
+}
+
+#page a.javaeditorlink
+{
+	color: #dc143c;
+	font-size: 10px;
+	float:right;
+	line-height: 100%;
+}
+
+#page div.problemlabel {
+	background-color: #66cc66;
+	color: #ffffff;
+	font-size: large;
+	font-weight: bold;
+	padding: 6px 6px 6px 20px;
+}
+
+#page div.problemlabel span {
+	color: #003300;
+	float: right;
+	font-weight: normal;
+}
+
+#page div.problembody {
+	border-left: 2px solid #66cc66;
+	margin-bottom: 1em;
+	padding: 6px;
+}
+
+#page div.problembody div.iehack {
+	margin: 1em 0em 0em 0em;
+}
+
+#page div.tasklabel {
+	background-color: #cc6666;
+	color: #ffffff;
+	font-size: large;
+	font-weight: bold;
+	padding: 6px 6px 6px 20px;
+}
+
+#page div.tasklabel span {
+	color: #ffffcc;
+	float: right;
+	font-weight: normal;
+}
+
+#page div.taskbody {
+	border-left: 2px solid #cc6666;
+	border-right: 2px solid #cc6666;
+	border-bottom: 2px solid #cc6666;
+	margin-bottom: 1em;
+	padding: 6px;
+}
+
+#page div.checkerlabel {
+	background-color: #66cc66;
+	color: #ffffff;
+	font-size: large;
+	font-weight: bold;
+	padding: 6px 6px 6px 20px;
+}
+
+#page div.checkerlabel span {
+	color: #ededed;
+	float: right;
+	font-weight: normal;
+}
+
+#page div.checkerbody {
+	background-color: #edffed;
+	border-left: 2px solid #66cc66;
+	border-right: 2px solid #66cc66;
+	border-bottom: 2px solid #66cc66;
+	margin-bottom: 1em;
+	padding: 6px;
+}
+
+#page div.qbox {
+	background-color: #008000;
+	margin-left: 2em;
+	width: 90%;
+}
+
+#page div.qbox tr {
+	vertical-align: text-top;
+}
+
+#page div.qbox td.qh1 {
+	background-color: #fafad2;
+	color: #000;
+	/* removed font-family statement */
+	font-weight: bold;
+}
+
+#page div.qbox td.qh2 {
+	background-color: #ccffcc;
+	color: #000;
+	/* removed font-family statement */
+	font-size: small;
+	font-weight: bold;
+	padding: 4px 4px 4px 16px;
+	vertical-align: baseline;
+	width: 160px;
+}
+
+#page div.qbox .qp {
+	background-color: #eeeeee;
+	/* removed font-family statement */
+	font-size: small;
+	padding: 4px;
+}
+
+#page div.qbox .qlink {
+	color: #999999;
+	font-size: 10px;
+	font-weight: normal;
+	margin-top: 4px;
+	padding: 1px;
+	text-align: right;
+}
+
+#page .borderbox {
+	border: 1px solid #ff0000;
+	padding: 3px;
+}
+
+#page div.display, p.display {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#page div.centered table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#page div.rules {
+	background-color: #ffeded;
+	border: 1px solid #800000;
+	font-size: smaller;
+	margin: 0px auto 4px auto;
+	padding: 6px;
+	text-align: left;
+	width: 85%;
+}
+
+#page div.rulestitle {
+	background-color: #800000;
+	border: 1px solid #800000;
+	color: #FFFFFF;
+	/* removed font-family statement */
+	font-weight: bold;
+	margin: 4px auto 0px auto;
+	padding: 6px;
+	width: 85%;
+}
+
+#page div.popup {
+	background-color: #ffffcc;
+	border: 1px solid #000;
+	color: #000;
+	font-size: x-small;
+	padding: 5px;
+	position: absolute;
+	visibility: hidden;
+	width: 0px;
+	z-index: 99;
+}
+
+#page div.popup .codetitle {
+	border-bottom: 1px solid #008000;
+	color: #008000;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+#page div.popup .constructor {
+	border-bottom: 1px solid #008000;
+	color: #0000FF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	padding-bottom: 2px;
+}
+
+#page div.popup .methods {
+	color: #0000ff;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+}
+
+#page div.popup .constants {
+	border-top: 1px solid #008000;
+	color: #0000FF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	margin-top: 2px;
+	padding-top: 2px;
+}
+
+#page div.popup .override {
+	color: #800000;
+}
+
+#page div.popup .datatype {
+	/* removed font-family statement */
+	font-size: 10px;
+	font-weight: normal;
+}
+
+#page table.topalign td div {
+	margin-top: 0em;
+}
+
+#page table.incelldiv {
+	margin: 0px auto;
+	text-align: left;
+}
+
+#page table.incelldiv td div {
+	margin: 0em;
+}
+
+#page .codelabel {
+	background-color: transparent;
+	color: #000088;
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#page .codevar {
+	background-color: transparent;
+	color: #666666;
+	font-family: "Courier New", Courier, monospace;
+	font-style: italic;
+}
+
+#page .comment {
+	background-color: #edffed;
+	border: 1px solid #008000;
+	font-size: smaller;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 4px;
+}
+
+#page .displaycode {
+	background-color: #ffcc99;
+	color: #0000ff;
+	font-family: "Courier New", Courier, monospace;
+	margin: 1em auto 1em 3em;
+	padding: 8px;
+	width: 80%;
+}
+
+#page .eval {
+	font-size: x-small;
+	margin-top: 0px;
+}
+
+#page .evalmessage {
+	color: #008000;
+	/* removed font-family statement */
+	font-size: smaller;
+}
+
+#page .evalpanel {
+	background-color: #99ccff;
+}
+
+#page .evalpanelresult {
+	background-color: #ccffcc;
+	border: thin inset #cccccc;
+	height: 36px;
+	margin-top: 6px;
+	padding: 2px;
+}
+
+#page .greenbar {
+	background-color: #e0ffe0;
+	border-bottom: 1px solid #009900;
+	border-left: 8px solid #009900;
+	border-right: 1px solid #009900;
+	border-top: 1px solid #009900;
+	padding: 4px 4px 4px 8px;
+}
+
+#page .indentbox {
+	margin: 0px 0px 0px 20px;
+}
+
+#page .inner {
+	background-color: #ffffcc;
+}
+
+#page .layer {
+	background-color: #ffffcc;
+	border: 1px solid #000;
+	color: #000;
+	font-size: x-small;
+	padding: 5px;
+	position: absolute;
+	visibility: hidden;
+	width: 270px;
+	z-index: 99;
+}
+
+#page .marked {
+	background-color: #ffcc99;
+	padding: 2px;
+}
+
+#page .medindentbox {
+	margin: 0px 0px 0px 10px;
+}
+
+#page .nobox {
+	margin: 2px 2px 2px 20px;
+	padding: 1px;
+}
+
+#page .noindentbox {
+	margin: 2px;
+	padding: 1px;
+}
+
+#page .outer {
+	background-color: #000;
+}
+
+#page .pgm {
+	font-family: "Courier New", Courier, monospace;
+	font-size: x-small;
+}
+
+#page .placeholder {
+	border: thin solid #0000ff;
+	color: #0000ff;
+	font-family: Arial;
+}
+
+#page .pr {
+	color: #006400;
+	font-weight: bold;
+}
+
+#page .smindentbox {
+	margin: 0px 0px 0px 5px;
+}
+
+#page .testpanel {
+	background-color: #ffcc99;
+	border: thin outset #cccccc;
+	padding: 2px;
+}
+
+#page .testpanelresult {
+	background-color: #ccffcc;
+	border: thin inset #cccccc;
+	height: 36px;
+	margin-top: 6px;
+	padding: 2px;
+}
+
+#page .value {
+	background-color: #d3d3d3;
+	color: #990000;
+	font-size: small;
+	font-style: italic;
+}
+
+#page .stepperhighlight {
+	background-color: #ffff00;
+}
+
+#page .steppertitle, #page div.javacodediv .steppertitle {
+	background-color: #000080;
+	color: #ffffff;
+	/* removed font-family statement */
+	font-size: 16px;
+	padding: 4px;
+}
+
+#page .stepperprogram {
+	background-color: transparent;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	padding: 2px;
+}
+
+#page .stepperwatchtitle, #page div.javacodediv .stepperwatchtitle {
+	background-color: #daa552;
+	color: #ffffff;
+	/* removed font-family statement */
+	font-size: 16px;
+	padding: 4px;
+}
+
+#page .stepperwatch {
+	padding: 4px;
+}
+
+#page .stepperoutputtitle, #page div.javacodediv .stepperoutputtitle {
+	background-color: #228b22;
+	color: #ffffff;
+	/* removed font-family statement */
+	font-size: 16px;
+	padding: 4px;
+}
+
+#page .stepperoutput {
+	font-size: 12px;
+	padding: 4px;
+}
+
+#page .steppernotes {
+	background-color: #ffc0cb;
+	color: #000;
+	font-size: 12px;
+	height: 32pt;
+	margin-top: 4px;
+	padding: 4px;
+}
+
+#page .stepperwatchcell {
+	background-color: #fafad2;
+	vertical-align: text-top;
+}
+
+#page .stepperoutputcell {
+	background-color: #98fb98;
+	vertical-align: text-top;
+}
+
+#page .steppervarcell {
+	width: 40px;
+}
+
+#page .steppervardiv {
+	font-size: 12px;
+	padding: 4px;
+}
+
+#page .steppervalcell {
+}
+
+#page .steppervaldiv {
+	border: 1px solid #808080;
+	font-size: 12px;
+	margin: 2px;
+	padding: 2px;
+}
+
+#page .testdatadiv {
+	background-color: #ccffcc;
+	border: 1px solid #dc143c;
+	margin: -9px 0 8px 0;
+	padding: 4px;
+}
+
+#page .testdatadiv h4 {
+	color: #008000;
+	margin: 0 0 0.5em 0;
+}
+
+#page .itemtestdata {
+	margin-left: 2.5em;
+}
+
+#page .shortdesc {
+	background-color: #ccffcc;
+	border: 1px solid #ccffcc;
+	display: inline;
+	line-height: 26px;
+	padding: 2px;
+}
+
+#page .longdesc {
+	background-color: #ccffcc;
+	border-left: 4px solid #dc143c;
+	display: block;
+	margin-left: 2.5em;
+	padding: 2px;
+}
+
+#page .thistest .shortdesc {
+	background-color: #ffffcc;
+	border: 1px solid #008000;
+}
+
+#page .thistest .longdesc {
+	background-color: #ffffcc;
+}
+
+#page .remark {
+	background-color: #dcdcdc;
+	border: 1px solid #dc143c;
+	font-size: smaller;
+	font-style: italic;
+	margin: -9px 0 8px 0;
+	padding: 4px;
+}
+
+/************ FINDER ************/
+.finderExercise {
+	height: 300px;
+	overflow-y: auto;
+}
+
+.finderProject {
+	width: 120px;
+}

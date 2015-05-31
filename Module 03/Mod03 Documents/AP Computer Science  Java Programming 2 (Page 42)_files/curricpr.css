@@ -1,0 +1,32 @@
+/* All curriculums pages, all databases */
+
+#page .gexbox 
+{
+	margin-bottom: 2px;
+}
+
+#page .infopanel div.buttons,
+#page div.solutionviewkeylink,
+#page div.solutioneditorlink,
+#footer,
+#bottom
+{
+	display: none;
+}
+
+#page div.quizquestion
+{
+	page-break-inside: avoid;
+}
+
+#quizcopyright
+{
+	display: block;
+	text-align: center;
+	font-size: smaller;
+}
+
+#page .sysadmin
+{
+	display: none;
+}

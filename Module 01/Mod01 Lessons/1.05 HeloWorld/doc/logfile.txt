@@ -1,0 +1,35 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.8.0_25\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\APCS Course Files\Module 01\Mod01 Lessons\1.05 HeloWorld
+-d
+C:\APCS Course Files\Module 01\Mod01 Lessons\1.05 HeloWorld\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+C:\APCS Course Files\Module 01\Mod01 Lessons\1.05 HeloWorld\HelloWorld.java
+<---- end of javadoc command ---->
+Loading source file C:\APCS Course Files\Module 01\Mod01 Lessons\1.05 HeloWorld\HelloWorld.java...
+C:\APCS Course Files\Module 01\Mod01 Lessons\1.05 HeloWorld\HelloWorld.java:10: error: <identifier> expected
+    public static void main(String)[] args)
+                                  ^
+C:\APCS Course Files\Module 01\Mod01 Lessons\1.05 HeloWorld\HelloWorld.java:10: error: ';' expected
+    public static void main(String)[] args)
+                                   ^
+2 errors

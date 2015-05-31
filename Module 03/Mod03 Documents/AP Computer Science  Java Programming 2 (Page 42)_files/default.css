@@ -1,0 +1,7 @@
+/* default font overrides */
+
+body, input, textarea, select, #page p.notadmin, #container .ui-widget, #navmenu .ui-widget, #repliesdlg, #repliesdlg .ui-widget
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+

@@ -1,0 +1,88 @@
+﻿Activity 6:
+List all Possible plays:
+	5 of spades and 6 of clubs
+	5 of clubs and 6 of spades
+
+2. If the deck is empty and the board has three cards left, must they be J, Q, and K? Why or why not?
+
+They must be either a King Queen or Jack as they are required to win the game. When all of the numbered cards are gone, there have to be pieces left on the board still that don't have pairings with the given cards. Those would be these 3 cards.
+
+3. Does the game involve any strategy? That is, when more than one play is possible, does it matter
+which one is chosen? Briefly explain your answer. 
+
+There doesn't have to be a lot of strategy. No matter what card you choose for a value, you will get a random card next. It doesn't really matter what you choose.
+
+Activity 7:
+1. What items would be necessary if you were playing a game of Elevens at your desk?
+
+You would need:
+	a deck of cards
+	draw pile of cards
+	individual card piles
+	discard pile
+2.Write an algorithm that describes the actions necessary to play the Elevens game.
+
+If (2 cards chosen are 11 points when combined) then remove those cards and replace them
+If (cards chosen are a jack, queen, and king) then same as above
+If (no moves left and cards != 0) then you lose
+If (cards == 0) then you win!
+
+3. Now examine the partially implemented ElevensBoard.java file found in the Activity7
+Starter Code directory. Does the ElevensBoard class contain all the state and behavior
+necessary to play the game?
+
+Yes. It contains all of the decks for the individual cards and does the calculations to see if there are any legal moves/what needs to happen next.
+
+4.
+a. In the newGame method
+b. anotherPlayisPossible
+   isLegal
+c. return = <0,6,2,10,4>
+d. public static void printCards(ElevensBoard board)
+    { 
+        List<Integer> cIndexes = board.cardIndexes();
+        for (int=0; i <cIndexes.size(); i++)
+        {
+            System.out.println(cards[cIndexes.get(i)]);
+        }
+    }
+e. Which one of the methods that you identified in question 4b above needs to call the
+cardIndexes method before calling the containsPairSum11 and containsJQK
+methods? Why?
+
+isLegal. You must first check to see if you can even do that move before assigning cards to decks. If this method is not called, the nulls values will be moved around, causing NullPointExceptions.
+
+Activity 8: 
+1. Discuss the similarities and differences between Elevens, Thirteens, and Tens. 
+
+Similarities: 
+They use decks.
+They use discard piles.
+They use checks to see if a move is legal.
+They use checks to see if there are other moves.
+They deal cards
+There is a winner
+
+Differences: 
+You can do different legal moves on each individual game.
+Not the same cards / # of cards.
+
+2. As discussed previously, all of the instance variables are declared in the Board class. But it is the
+ElevensBoard class that “knows” the board size, and the ranks, suits, and point values of the
+cards in the deck. How do the Board instance variables get initialized with the ElevensBoard
+values? What is the exact mechanism?
+
+They are set in the subclass using things like super() and utilizing the subclass constructor. 
+
+3. Now examine the files Board.java, and ElevensBoard.java, found in the Activity8
+Starter Code directory. Identify the abstract methods in Board.java. See how these
+methods are implemented in ElevensBoard. Do they cover all the differences between Elevens,
+Thirteens, and Tens as discussed in question 1? Why or why not?
+
+The methods are isLegal and anotherPlayisPossible.
+These cover all the differences as they are mainly about rules/ card numbers. Since you can set the number of cards in isLegal, and you can use different rules in anotherPlayisPossible, this covers the differences.
+
+Activity 9: 
+1. The size method is not abstract as it can be initialized in the subclass. It needs to be so that it can be edited, depending on the amount of cards in the game.
+2. Removing cards is always the same in no matter what game - you move it to a discard deck, sometimes replace, etc. Therefore, you do not need to intialize it in every game.
+3. I think it would work fine. Although you would have to implement it in all the classes, it would work just as much as a subclass/superclass method would. The only advantage that method has is that it can declare constants much easier.

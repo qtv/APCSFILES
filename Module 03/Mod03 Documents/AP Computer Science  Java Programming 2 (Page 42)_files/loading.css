@@ -1,0 +1,11 @@
+div#ajaxloader
+{
+	background: url(images/ajax-loader.gif) no-repeat center center transparent;
+	display: none;
+	position: absolute;
+}
+
+div#ajaxloader.small
+{
+	background: url(images/ajax-loader-small.gif) no-repeat center center transparent;
+}
